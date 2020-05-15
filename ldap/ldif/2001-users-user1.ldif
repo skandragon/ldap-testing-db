@@ -1,0 +1,10 @@
+dn: uid=user1,ou=Users,dc=example,dc=com
+objectclass: inetOrgPerson
+cn: User One
+sn: One
+uid: user1
+userpassword: {SSHA}fpL08ZrzLSagLNlg8aYlYHvhGbqGGOtu
+mail: user1@example.com
+ou: Users
+memberOf: cn=AllUsers,ou=Groups,dc=example,dc=com
+memberOf: cn=OneTwo,ou=Groups,dc=example,dc=com

@@ -1,0 +1,8 @@
+dn: uid=user4,ou=Users,dc=example,dc=com
+objectclass: inetOrgPerson
+cn: User Four
+sn: Four
+uid: user4
+userpassword: {SSHA}Yys0dUkZaicVi0EEW/5n1SVLUv/JtERA
+mail: user4@example.com
+ou: Users
