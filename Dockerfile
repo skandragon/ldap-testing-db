@@ -9,7 +9,7 @@ EXPOSE $LDAPPORT
 RUN adduser --home /ldap --shell /bin/sh --disabled-password --no-create-home --gecos 'ldap user' --uid $LDAPUSERID ldap
 
 RUN apk update \
-  && apk add --no-cache openldap openldap-back-mdb openldap-clients \
+  && apk add --no-cache openldap openldap-back-mdb openldap-overlay-memberof openldap-clients \
   && rm -rf /var/cache/apk/*
 
 run mkdir /run/openldap && chown ldap:ldap /run/openldap
