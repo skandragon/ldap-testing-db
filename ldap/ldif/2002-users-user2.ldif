@@ -1,8 +1,0 @@
-dn: uid=user2,ou=Users,dc=example,dc=com
-objectclass: inetOrgPerson
-cn: User Two
-sn: Two
-uid: user2
-userpassword: {SSHA}l8s3uJ3KY/aCWpMPEyGu4M99DD/jVYor
-mail: user2@example.com
-ou: Users

@@ -1,0 +1,20 @@
+dn: cn=AllUsers,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user1,ou=Users,dc=example,dc=com
+member: uid=user2,ou=Users,dc=example,dc=com
+member: uid=user3,ou=Users,dc=example,dc=com
+member: uid=user4,ou=Users,dc=example,dc=com
+member: uid=user5,ou=Users,dc=example,dc=com
+
+dn: cn=OneTwo,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user1,ou=Users,dc=example,dc=com
+member: uid=user2,ou=Users,dc=example,dc=com
+
+dn: cn=Administrators,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user2,ou=Users,dc=example,dc=com
+member: uid=user4,ou=Users,dc=example,dc=com

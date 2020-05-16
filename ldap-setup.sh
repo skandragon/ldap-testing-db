@@ -1,17 +1,8 @@
-for l in /ldap/modules/*; do
-  case "$l" in
-    *.ldif)  echo "SETUP: adding $l";
-            slapadd -n 0 -l $l
-            ;;
-    *)      echo "SETUP: ignoring $l" ;;
-  esac
-done
+#!/bin/sh
 
-for l in /ldap/ldif/*; do
-  case "$l" in
-    *.ldif)  echo "SETUP: adding $l";
-            slapadd -l $l
-            ;;
-    *)      echo "SETUP: ignoring $l" ;;
-  esac
-done
+# This is a hack, but convert the config from .conf to remotely configurable
+# each run.
+
+slaptest -f /etc/openldap/slapd.conf -F /etc/openldap/slapd.d
+rm /etc/openldap/slapd.conf
+touch /etc/openldap/slapd.conf
