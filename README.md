@@ -10,14 +10,28 @@ The root password for `cn=admin,dc=example,dc=com` is `adminroot123`
 
 Each user is defined as:
 
-`uid=user1,ou=Users,dc=example,dc=com`
-
-For each of the five users, the passwords is `user1password` with 1 replaced for {1,2,3,4,5}.
+|dn|password|
+|-|-|
+|uid=user1,ou=Users,dc=example,dc=com|user1password|
+|uid=user2,ou=Users,dc=example,dc=com|user2password|
+|uid=user3,ou=Users,dc=example,dc=com|user3password|
+|uid=user4,ou=Users,dc=example,dc=com|user4password|
+|uid=user5,ou=Users,dc=example,dc=com|user5password|
 
 ## Groups
 
-Three groups are defined:
+These groups are defined:
 
-AllUsers: all users are members.
-OneTwo: user1 and user2 are members.
-Administrators: user2 and user4 are members.
+|dn|name|members|
+|-|-|-|
+|cn=AllUsers,ou=Groups,dc=example,dc=com|AllUsers|user1, user2, user3, user4, user5|
+|cn=OneTwo,ou=Groups,dc=example,dc=com|OneTwo|user1, user2|
+|cn=Administrators,ou=Groups,dc=example,dc=com|Administrators|user2, user4|
+
+Each user will see a `memberOf` attribute (which must be explicitly queried for)
+in the user record.
+
+## Durability of updates
+
+There is no persistent store defined, nor do I plan on adding this.  This server
+is for testing purposes, intended to be brought up and down as needed to run tests or demos.
