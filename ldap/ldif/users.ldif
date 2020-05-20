@@ -38,7 +38,16 @@ dn: uid=user5,ou=Users,dc=example,dc=com
 objectclass: inetOrgPerson
 cn: User Five
 sn: Five
-uid: user2
+uid: user5
 userpassword: {SSHA}9ggT01KWo12j8gN/tbdK94PteN7cYFhz
 mail: user5@example.com
+ou: Users
+
+dn: uid=user6,ou=Users,dc=example,dc=com
+objectclass: inetOrgPerson
+cn: User Six
+sn: Six
+uid: user6
+displayName: User Six
+userpassword: {SSHA}Q6Bw0xeBA6A9vWayobfX89Eb81TI2RkT
 ou: Users

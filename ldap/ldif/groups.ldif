@@ -18,3 +18,103 @@ objectClass: top
 objectClass: groupOfNames
 member: uid=user2,ou=Users,dc=example,dc=com
 member: uid=user4,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList01,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList02,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList03,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList04,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList05,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList06,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList07,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList08,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList09,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList10,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList11,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList12,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList13,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList14,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList15,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList16,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList17,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList18,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList19,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
+
+dn: cn=LongGroupList20,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: groupOfNames
+member: uid=user6,ou=Users,dc=example,dc=com
