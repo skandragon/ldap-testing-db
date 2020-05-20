@@ -17,6 +17,7 @@ Each user is defined as:
 |uid=user3,ou=Users,dc=example,dc=com|user3password|
 |uid=user4,ou=Users,dc=example,dc=com|user4password|
 |uid=user5,ou=Users,dc=example,dc=com|user5password|
+|uid=user6,ou=Users,dc=example,dc=com|user6password|
 
 ## Groups
 
@@ -27,6 +28,8 @@ These groups are defined:
 |cn=AllUsers,ou=Groups,dc=example,dc=com|AllUsers|user1, user2, user3, user4, user5|
 |cn=OneTwo,ou=Groups,dc=example,dc=com|OneTwo|user1, user2|
 |cn=Administrators,ou=Groups,dc=example,dc=com|Administrators|user2, user4|
+
+There are also 20 groups called LongGroupList01 through LongGroupList20 which only user6 is part of.  This is to make sure that a large group list can be returned, and if rendered to JSON, won't be truncated in some storage.
 
 Each user will see a `memberOf` attribute (which must be explicitly queried for)
 in the user record.
