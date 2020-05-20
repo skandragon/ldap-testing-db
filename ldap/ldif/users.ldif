@@ -53,6 +53,7 @@ cn: User Six
 sn: Six
 uid: user6
 displayName: User Six
-userpassword: {SSHA}Q6Bw0xeBA6A9vWayobfX89Eb81TI2RkT
+userpassword: {SSHA}Phfq3yJ5rTC+HOy3gWTfB2iA0DqhfJq0
+mail: user6@example.com
 displayName: User Six
 ou: Users
