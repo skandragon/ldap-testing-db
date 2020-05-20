@@ -5,6 +5,7 @@ sn: One
 uid: user1
 userpassword: {SSHA}YThTg/EtA3nC3bz2i52eHSLVTNhRpZ11
 mail: user1@example.com
+displayName: User One
 ou: Users
 
 dn: uid=user2,ou=Users,dc=example,dc=com
@@ -14,6 +15,7 @@ sn: Two
 uid: user2
 userpassword: {SSHA}l8s3uJ3KY/aCWpMPEyGu4M99DD/jVYor
 mail: user2@example.com
+displayName: User Two
 ou: Users
 
 dn: uid=user3,ou=Users,dc=example,dc=com
@@ -23,6 +25,7 @@ sn: Three
 uid: user3
 userpassword: {SSHA}DhMGXh4XCnTKLzCXxSGaSC8O1CsNCxJm
 mail: user3@example.com
+displayName: User Three
 ou: Users
 
 dn: uid=user4,ou=Users,dc=example,dc=com
@@ -32,6 +35,7 @@ sn: Four
 uid: user4
 userpassword: {SSHA}Yys0dUkZaicVi0EEW/5n1SVLUv/JtERA
 mail: user4@example.com
+displayName: User Four
 ou: Users
 
 dn: uid=user5,ou=Users,dc=example,dc=com
@@ -50,4 +54,5 @@ sn: Six
 uid: user6
 displayName: User Six
 userpassword: {SSHA}Q6Bw0xeBA6A9vWayobfX89Eb81TI2RkT
+displayName: User Six
 ou: Users

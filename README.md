@@ -10,14 +10,14 @@ The root password for `cn=admin,dc=example,dc=com` is `adminroot123`
 
 Each user is defined as:
 
-|dn|password|
-|-|-|
-|uid=user1,ou=Users,dc=example,dc=com|user1password|
-|uid=user2,ou=Users,dc=example,dc=com|user2password|
-|uid=user3,ou=Users,dc=example,dc=com|user3password|
-|uid=user4,ou=Users,dc=example,dc=com|user4password|
-|uid=user5,ou=Users,dc=example,dc=com|user5password|
-|uid=user6,ou=Users,dc=example,dc=com|user6password|
+|dn|password|displayName|
+|-|-|-|
+|uid=user1,ou=Users,dc=example,dc=com|user1password|User One|
+|uid=user2,ou=Users,dc=example,dc=com|user2password|User Two|
+|uid=user3,ou=Users,dc=example,dc=com|user3password|User Three|
+|uid=user4,ou=Users,dc=example,dc=com|user4password|User Four|
+|uid=user5,ou=Users,dc=example,dc=com|user5password|(absent)|
+|uid=user6,ou=Users,dc=example,dc=com|user6password|User Six|
 
 ## Groups
 
