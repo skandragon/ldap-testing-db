@@ -2,7 +2,7 @@
 
 sh /ldap-setup.sh
 
-slapd -4 -h "ldapi:/// ldap://0.0.0.0:$LDAPPORT" -d 0 -f /ldap/rw/slapd.conf -F /ldap/rw/slapd.d &
+slapd -4 -h "ldapi://%2fldap%2frw%2fsocket/ ldap://0.0.0.0:$LDAPPORT" -d 0 -f /ldap/rw/slapd.conf -F /ldap/rw/slapd.d &
 
 wait_counter=0
 while [ ! -f /ldap/rw/slapd.pid ] ; do
