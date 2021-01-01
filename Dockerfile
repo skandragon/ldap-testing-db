@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.12
 MAINTAINER explorer@flame.org
 
 ENV LDAPUSERID=1000
