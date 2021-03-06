@@ -1,5 +1,4 @@
 FROM alpine:3.12
-MAINTAINER explorer@flame.org
 
 ENV LDAPUSERID=1000
 ENV LDAPPORT=3389
