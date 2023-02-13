@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3
 
 ENV LDAPUSERID=1000
 ENV LDAPPORT=3389
@@ -11,7 +11,7 @@ RUN apk update \
   && apk add --no-cache openldap openldap-back-mdb openldap-overlay-memberof openldap-clients \
   && rm -rf /var/cache/apk/*
 
-RUN mkdir /run/openldap /var/lib/openldap/run && chown ldap:ldap /run/openldap /var/lib/openldap/run
+RUN mkdir /var/lib/openldap/run && chown ldap:ldap /run/openldap /var/lib/openldap/run
 
 WORKDIR /ldap
 
